@@ -12,7 +12,7 @@ public class Main {
          it1.bark();
          it1.kusat();
          it1.run();
-        System.out.println("");
+
 
         TotuKush totukush1 = new TotuKush();
         totukush1.setName("Yago");
@@ -26,7 +26,7 @@ public class Main {
           totukush1.eat();
           totukush1.fly();
           totukush1.trySay();
-        System.out.println("");
+
 
         Myshyk myshyk1 = new Myshyk();
         myshyk1.setKlichka("Tom");
@@ -40,7 +40,7 @@ public class Main {
             myshyk1.golos();
             myshyk1.scratch();
             myshyk1.play();
-        System.out.println("");
+
 
         Balyk balyk1 = new Balyk();
         balyk1.setName("Nemo");
