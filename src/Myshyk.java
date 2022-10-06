@@ -1,8 +1,8 @@
 public class Myshyk {
     private String klichka;
     private String colour;
-    private int age;
-    private int weigth;
+    private double age;
+    private double weigth;
 
     public void golos(){
         System.out.println("Myau");
@@ -20,10 +20,10 @@ public class Myshyk {
     public void setColour(String colour){
         this.colour = colour;
     }
-    public void setAge(int age){
+    public void setAge(double age){
         this.age = age;
     }
-    public void setWeigth(int weigth){
+    public void setWeigth(double weigth){
         this.weigth = weigth;
     }
 
@@ -33,10 +33,10 @@ public class Myshyk {
     public String getColour(){
         return colour;
     }
-    public int getAge(){
+    public double getAge(){
         return age;
     }
-    public int getWeigth(){
+    public double getWeigth(){
         return weigth;
     }
 

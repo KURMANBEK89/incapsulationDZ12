@@ -11,7 +11,7 @@ public class It {
         System.out.println(klichka + " is running");
     }
     public void kusat(){
-        System.out.println(klichka + "kusaet");
+        System.out.println(klichka + " kusaet");
     }
 
     public void setKlichka(String klichka){

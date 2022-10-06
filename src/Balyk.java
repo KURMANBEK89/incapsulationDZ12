@@ -1,8 +1,8 @@
 public class Balyk {
     private String name;
     private String colour;
-    private int age;
-    private int weigth;
+    private double age;
+    private double weigth;
 
     public void swim(){
         System.out.println(name + " is swimming");
@@ -20,10 +20,10 @@ public class Balyk {
     public void setColour(String colour){
         this.colour = colour;
     }
-    public void setAge(int age){
+    public void setAge(double age){
         this.age = age;
     }
-    public void setWeigth(int weigth){
+    public void setWeigth(double weigth){
         this.weigth = weigth;
     }
     public String getName(){
@@ -32,10 +32,10 @@ public class Balyk {
     public String getColour(){
         return colour;
     }
-    public int getAge(){
+    public double getAge(){
         return age;
     }
-    public int getWeigth() {
+    public double getWeigth() {
         return weigth;
     }
 }
